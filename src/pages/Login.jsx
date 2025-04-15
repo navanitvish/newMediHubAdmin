@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Navigate } from 'react-router-dom';
-import LoginForm from '../components/Auth/loginForm';
+import LoginForm from '../components/auth/loginForm';
 import useAuth from '../hooks/useAuth';
 
 const Login = () => {
