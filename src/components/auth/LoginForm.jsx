@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import useAuth from '../../hooks/useAuth';
 
-const LoginForm = () => {
+const loginForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -159,4 +159,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default loginForm;
